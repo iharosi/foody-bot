@@ -45,7 +45,8 @@ rtm.on(RTM_EVENTS.MESSAGE, (message) => {
                     {
                         attachments: [{
                             color: '#eeeeee',
-                            title: 'Available restaurants and their commands:'
+                            title: `Expand the list to see all the ${restaurantList.length} ` +
+                                `available restaurants.`
                         }, {
                             text: restaurantList.join('\n')
                         }]
