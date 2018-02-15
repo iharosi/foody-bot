@@ -1,6 +1,6 @@
 {
   "name": "foody-bot",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "What's the lunch for today?",
   "main": "server.js",
   "scripts": {
